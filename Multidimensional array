@@ -1,0 +1,17 @@
+// Multidimensional array
+
+fun main()
+{
+    val num : Array<Array<Int>> = arrayOf(arrayOf(1,2,3),arrayOf(4,5,6)) 
+    for (i in num)
+    {
+        for (j in i)
+        {
+            print(j)
+            print(' ')
+        }
+        println()
+    }
+   
+    
+}
