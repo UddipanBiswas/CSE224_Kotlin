@@ -1,0 +1,17 @@
+
+//safe and unsafe cast
+
+fun main()
+{
+    var a ="hi"
+    var b:String = a as String
+    println("unsafe cast: $b")
+    //var c:Int = a as Int 
+    //println("unsafe cast: $c") gives error
+    
+    var d:Int? = a as? Int
+    if (d!= null){
+        println("safe cast: $d")}
+    else{
+        println("failed")
+    }
