@@ -1,0 +1,15 @@
+* string paragraph
+fun main()
+{
+    var a= """uddipan
+      uddipan
+        uddipan
+          uddipan"""
+    var b=
+    """
+       ram
+    ram    ram
+       ram"""
+                                    
+    println(a)
+    print(b)
