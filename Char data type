@@ -1,0 +1,12 @@
+
+ 
+*Char data type
+
+fun main()
+{
+    var a='9'
+    print(a)
+    print('\n')
+    print('\$')
+    print('\\')
+      
